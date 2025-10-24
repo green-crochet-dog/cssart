@@ -2,6 +2,14 @@ body{
     background-image:linear-gradient(to bottom, rgb(29, 29, 76) 0% , rgb(15, 15, 89) 50% ,rgb(0, 0, 0) 75% ); 
     height: 100vh
     ;}
+    
+    p{
+        font-size:70px;
+        position: absolute;
+        background-color:rgb(242, 176, 52);
+        left:700px;
+        top:200px;
+    }
 #square{
 width: 300px;
 height: 400px;
@@ -102,3 +110,35 @@ border-radius:50%;
     top: 400px;
     left: 215px;
 }
+#candy{
+    font-size:20px;
+    position: absolute;
+    top:320px ;
+    left: 402px;
+}
+#blood{
+    font-size:70px;
+    position: absolute;
+    top:90px ;
+    left: 250px;
+}
+#skull{
+    font-size:50px;
+    position: absolute;
+    top:470px ;
+    left: 550px;
+}
+#leftleg{
+   font-size:60px;
+    position: absolute;
+    top:469px ;
+    left: 150px;
+}
+#rightleg{ 
+ font-size:60px;
+    position: absolute;
+    top:469px ;
+    left: 290px;
+    transform:scaleX(-1);
+}
+
